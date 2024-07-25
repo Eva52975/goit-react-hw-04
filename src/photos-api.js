@@ -8,7 +8,7 @@ export const fetchPhotos = async (topic, page) => {
     params: {
       query: topic,
       orientation: "landscape",
-      per_page: 10,
+      per_page: 12,
       client_id: ACCESS_KEY,
       page: page,
     },
@@ -16,5 +16,3 @@ export const fetchPhotos = async (topic, page) => {
 
   return response.data;
 };
-
-// `?query=${topic}&client_id=${ACCESS_KEY}&per_page=15`;

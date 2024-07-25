@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(111, 76, 143);
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(78, 16, 136);
+}
+
+.input {
+  border: 1px solid rgb(153, 151, 151);
+  border-radius: 8px;
+  outline: none;
+  width: 180px;
+}
